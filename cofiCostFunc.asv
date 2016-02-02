@@ -46,7 +46,7 @@ Theta_grad = zeros(size(Theta));
         + lambda/2 * sum(sum(X .* X));
 
     X_grad = delta * Theta + lambda * X;
-    Theta_grad = delta' * X + lambda * Theta;
+    Theta_grad = delta' * X + lamb
     
 
 
